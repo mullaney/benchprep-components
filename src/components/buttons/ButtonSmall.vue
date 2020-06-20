@@ -20,8 +20,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'https://wmx-api-production.s3.amazonaws.com/public/benchprep/css/branding.css';
-
 .button-small {
   background: var(--gray-70);
   border: none;
