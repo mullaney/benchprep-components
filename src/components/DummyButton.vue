@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name: 'DummyButton',
   data() {
     return {
       count: 0,
@@ -28,3 +29,11 @@ export default {
   },
 };
 </script>
+
+<docs>
+Just a dummy button for counting.
+
+```jsx
+<DummyButton />
+```
+</docs>
