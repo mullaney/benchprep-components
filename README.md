@@ -24,3 +24,8 @@ import MyComponent from 'benchprep-components'
 ```
 
 And use them normally from there.
+
+
+## Initial Demos
+
+The mockups for the initial components were provided by Atiyya: https://www.figma.com/proto/P2GpzhnaT86j5Esfz7eZwj/Sample-UI-LIbrary?node-id=1%3A163&scaling=min-zoom
