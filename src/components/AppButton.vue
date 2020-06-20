@@ -1,14 +1,18 @@
 <template>
-  <button :style="styles" @click="handleClick">
+  <button
+    :style="styles"
+    @click="handleClick"
+  >
     <!-- @slot Use this slot to place the button content -->
-    <slot></slot>
+    <slot />
   </button>
 </template>
 
 <script>
 import sizeMixin from './sizeMixin'
+
 export default {
-  name: 'app-button',
+  name: 'AppButton',
   mixins: [sizeMixin],
   props: {
     /**
@@ -16,26 +20,24 @@ export default {
      */
     color: {
       type: String,
-      default: 'black'
+      default: 'black',
     },
     /** Sets background color of the button
      * @since 1.2.0
      */
     background: {
       type: String,
-      default: 'white'
+      default: 'white',
     },
-    /** @deprecated Use color instead */
-    oldColor: String
   },
   computed: {
     styles() {
       return {
         'font-size': this.size,
         color: this.color,
-        background: this.background
+        background: this.background,
       }
-    }
+    },
   },
   methods: {
     handleClick(e) {
@@ -50,8 +52,8 @@ export default {
        * @type {Event}
        */
       this.$emit('gator', e)
-    }
-  }
+    },
+  },
 }
 </script>
 

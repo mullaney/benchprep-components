@@ -1,6 +1,8 @@
 <template>
   <div>
-    <button @click="increment">{{ text }}</button>
+    <button @click="increment">
+      {{ text }}
+    </button>
   </div>
 </template>
 
