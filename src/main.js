@@ -1,3 +1,3 @@
-import DummyButton from './components/DummyButton.vue';
+import ButtonSmall from './components/buttons/ButtonSmall.vue';
 
-export default DummyButton;
+export default ButtonSmall;
