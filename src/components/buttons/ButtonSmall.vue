@@ -25,6 +25,7 @@ export default {
   border: none;
   border-radius: 3px;
   color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   padding: 7px 14px;
 
