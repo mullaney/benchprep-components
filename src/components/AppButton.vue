@@ -1,7 +1,10 @@
 <template>
-  <button :style="styles" @click="handleClick">
+  <button
+    :style="styles"
+    @click="handleClick"
+  >
     <!-- @slot Use this slot to place the button content -->
-    <slot></slot>
+    <slot />
   </button>
 </template>
 
@@ -9,7 +12,7 @@
 import sizeMixin from './sizeMixin';
 
 export default {
-  name: 'app-button',
+  name: 'AppButton',
   mixins: [sizeMixin],
   props: {
     /**
@@ -26,8 +29,6 @@ export default {
       type: String,
       default: 'white',
     },
-    /** @deprecated Use color instead */
-    oldColor: String,
   },
   computed: {
     styles() {
