@@ -40,3 +40,6 @@ Because this is a component library, we don't need an App.vue file. The main.js 
 
 ### Adding DummyButton
 We added a DummyButton as an example for future components.
+
+### Need to use nvm 10+
+In order to use styleguidist, we need to use nvm 10+ in this repo only.
