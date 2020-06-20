@@ -27,7 +27,7 @@ export default {
       default: 'white',
     },
     /** @deprecated Use color instead */
-    oldColor: String
+    oldColor: String,
   },
   computed: {
     styles() {
@@ -53,7 +53,7 @@ export default {
       this.$emit('gator', e);
     },
   },
-}
+};
 </script>
 
 <docs>
