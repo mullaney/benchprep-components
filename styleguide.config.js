@@ -9,6 +9,10 @@ module.exports = {
     {
       name: 'Buttons',
       components: 'src/components/buttons/[A-Z]*.vue'
+    },
+    {
+      name: 'Cards',
+      components: 'src/components/cards/[A-Z]*.vue'
     }
   ],
   webpackConfig: {
