@@ -1,3 +1,4 @@
-import ButtonSmall from './components/buttons/ButtonSmall.vue';
+import './assets/css/style.css'
+import ButtonSmall from './components/buttons/ButtonSmall.vue'
 
-export default ButtonSmall;
+export { ButtonSmall }
