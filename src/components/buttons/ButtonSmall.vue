@@ -11,6 +11,9 @@
 export default {
   name: 'ButtonSmall',
   props: {
+    /**
+     * Specifies the type of button which will change the color of the button
+     */
     type: {
       type: String,
       default: ''
@@ -28,6 +31,11 @@ export default {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   padding: 7px 14px;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
 
   &.primary {
     background: var(--primary);
@@ -47,6 +55,16 @@ export default {
 
   &.success {
     background: var(--green);
+  }
+
+  &.inverted {
+    background: var(--pure-white);
+    color: var(--primary);
+    border: none;
+
+    a {
+      color: var(--primary);
+    }
   }
 }
 </style>
