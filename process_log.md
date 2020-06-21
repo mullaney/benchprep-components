@@ -20,7 +20,7 @@ vue create benchprep-components
 
 Add new options in package.json
 
-```
+```json
 "scripts": {
   "serve": "vue-cli-service serve",
   "build": "vue-cli-service build",
@@ -31,7 +31,7 @@ Add new options in package.json
 
 Add main line to package.json
 
-```
+```json
   "main": "./dist/componentLibraryDemo.common.js",
 ```
 
@@ -43,3 +43,22 @@ We added a DummyButton as an example for future components.
 
 ### Need to use nvm 10+
 In order to use styleguidist, we need to use nvm 10+ in this repo only.
+
+### Including CSS with the library
+First notice this line in main.js:
+
+```js
+import './assets/css/style.css'
+```
+
+This allows us to bundle css any external css needed with the components. I've used it to include some fonts and a copy of branding.css.
+
+Also, you have to make sure this is in the vue.config.js:
+
+```js
+module.exports = {
+  css: { extract: false }
+}
+```
+
+Otherwise when the library is built, it will seperate the css from the components and save them in separate files.
