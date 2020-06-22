@@ -6,23 +6,23 @@
     >
       <span
         v-show="noImage"
-        class="action_card__placeholder"
+        class="action-card__placeholder"
       >
         image goes here
       </span>
     </div>
     <div class="action-card__content">
-      <div class="action_card__title">
+      <div class="action-card__title">
         {{ title }}
       </div>
       <div
         v-for="(item, index) in lineItems"
         :key="index"
-        class="action_card__line-item"
+        class="action-card__line-item"
       >
         {{ item }}
       </div>
-      <div class="action_card__buttons">
+      <div class="action-card__buttons">
         <ButtonSmall
           v-for="(button, index) in buttons"
           :key="index"
@@ -102,7 +102,7 @@ export default {
 
 }
 
-.action_card__placeholder {
+.action-card__placeholder {
   color: #000000;
   opacity: 0.05;
   text-transform: uppercase;
@@ -115,19 +115,19 @@ export default {
   padding: 16px;
 }
 
-.action_card__title {
+.action-card__title {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-.action_card__line-item {
+.action-card__line-item {
   color: #696969;
   font-size: 14px;
   font-weight: 600;
 }
 
-.action_card__buttons {
+.action-card__buttons {
   margin-top: 14px;
   display: flex;
   justify-content: space-between;
