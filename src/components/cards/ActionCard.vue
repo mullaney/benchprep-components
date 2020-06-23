@@ -113,6 +113,7 @@ export default {
   background: white;
   font-family: "Open Sans", sans-serif;
   padding: 16px;
+  text-align: left;
 }
 
 .action-card__title {
@@ -154,6 +155,16 @@ Action Card
   <p>With an image:</p>
   <div style="width: 300px">
     <ActionCard imageUrl="https://c.pxhere.com/photos/44/78/office_work_studying_office_working_computer_work_at_home_working_from_home_person-1224832.jpg!d"/>
+  </div>
+</div>
+```
+<p>If style of container includes text-align center, the action card content should still be left aligned:</p>
+
+```jsx
+<div style="padding: 16px; background: #eeeeee">
+  <div style="width: 300px; text-align: center">
+    <p>Centered text</p>
+    <ActionCard title="This should be left aligned" :lineItems="['so should these', 'lines']"/>
   </div>
 </div>
 ```
