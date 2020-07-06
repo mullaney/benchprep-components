@@ -24,7 +24,7 @@ Add new options in package.json
 "scripts": {
   "serve": "vue-cli-service serve",
   "build": "vue-cli-service build",
-  "build-lib": "vue-cli-service build --target lib --name dummylib src/main.js",
+  "build-lib": "vue-cli-service build --target lib --name benchpreComponents src/main.js",
   "lint": "vue-cli-service lint"
 },
 ```
