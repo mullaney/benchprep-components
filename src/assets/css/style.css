@@ -2,6 +2,11 @@
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://wmx-api-production.s3.amazonaws.com/public/benchprep/css/branding.css');
 
+@font-face {
+  font-family: benchprep-icon;
+  src: url('/src/assets/fonts/benchprep-icon.ttf');
+}
+
 :root {
   --red: #E35B5D;
   --yellow: #EDC21C;
