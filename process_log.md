@@ -35,8 +35,10 @@ Add main line to package.json
   "main": "./dist/componentLibraryDemo.common.js",
 ```
 
-### Removing App.vue
-Because this is a component library, we don't need an App.vue file. The main.js file is simply exporting all of the components for use in other repos. Instead the src/main.js file will simply import components and export them together as one object:
+### Replacing main.js
+Because this is a component library, we don't need an App.vue file.
+
+The main.js file is simply exporting all of the components for use in other repos. Instead the src/main.js file will simply import components and export them together as one object:
 
 ```js
 import './assets/css/style.css'
