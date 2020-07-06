@@ -1,6 +1,6 @@
 # Benchprep Components
 
-- [Automated Documentation](https://mullaney.github.io/benchprep-components/)
+The style guide generated from this repo it automatically deployed to netlify.  https://bp-styleguide-demo.netlify.app/
 
 See process_log.md for notes on the steps taken to make this repo.
 
