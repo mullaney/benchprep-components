@@ -36,7 +36,15 @@ Add main line to package.json
 ```
 
 ### Removing App.vue
-Because this is a component library, we don't need an App.vue file. The main.js file is simply exporting all of the components for use in other repos.
+Because this is a component library, we don't need an App.vue file. The main.js file is simply exporting all of the components for use in other repos. Instead the src/main.js file will simply import components and export them together as one object:
+
+```js
+import './assets/css/style.css'
+import ButtonSmall from './components/buttons/ButtonSmall.vue'
+import ActionCard from './components/cards/ActionCard.vue'
+
+export { ButtonSmall, ActionCard }
+```
 
 ### Adding DummyButton
 We added a DummyButton as an example for future components.
