@@ -9,7 +9,8 @@
     "build-lib": "vue-cli-service build --target lib --name benchpreComponents ./src/main.js",
     "styleguide": "vue-cli-service styleguidist",
     "styleguide:build": "vue-cli-service styleguidist:build",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "storybook": "start-storybook"
   },
   "main": "./dist/benchpreComponents.common.js",
   "dependencies": {
@@ -17,12 +18,14 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@storybook/vue": "^5.3.19",
     "@vue/cli-plugin-babel": "^4.4.0",
     "@vue/cli-plugin-eslint": "^4.4.0",
     "@vue/cli-plugin-unit-mocha": "^4.4.0",
     "@vue/cli-service": "^4.4.0",
     "@vue/test-utils": "^1.0.3",
     "babel-eslint": "^10.1.0",
+    "babel-preset-vue": "^2.0.2",
     "chai": "^4.1.2",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
