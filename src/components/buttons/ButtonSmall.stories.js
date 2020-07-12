@@ -1,5 +1,3 @@
-import '../../assets/css/style.css'
-
 export default { title: 'Buttons and Stuff' }
 
 export const ButtonSmall = () => `

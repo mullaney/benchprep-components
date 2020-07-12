@@ -1,3 +1,5 @@
+import '../src/assets/css/style.css'
+
 import { configure } from '@storybook/vue';
 
 import Vue from 'vue';
