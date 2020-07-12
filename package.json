@@ -10,7 +10,8 @@
     "styleguide": "vue-cli-service styleguidist",
     "styleguide:build": "vue-cli-service styleguidist:build",
     "test:unit": "vue-cli-service test:unit",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "build-storybook": "build-storybook -c .storybook -o .out"
   },
   "main": "./dist/benchpreComponents.common.js",
   "dependencies": {
