@@ -1,6 +1,7 @@
 # Benchprep Components
 
-The style guide generated from this repo it automatically deployed to netlify.  https://bp-styleguide-demo.netlify.app/
+The style guide generated from this repo it automatically deployed to netlify: [![Netlify Status](https://api.netlify.com/api/v1/badges/e70a842c-8f5a-4764-848c-a97d4b5c02be/deploy-status)](https://app.netlify.com/sites/bp-styleguide-demo/deploys)
+Static storybook is generated from this repo and deployed to netlify: [![Netlify Status](https://api.netlify.com/api/v1/badges/3c32f751-6f37-4a21-8a43-7d9850db796c/deploy-status)](https://app.netlify.com/sites/storybook-bp-components/deploys)
 
 See process_log.md for notes on the steps taken to make this repo.
 
