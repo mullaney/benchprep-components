@@ -1,6 +1,35 @@
-export default { title: 'Button Small' }
+import { withKnobs, select } from '@storybook/addon-knobs'
+import ButtonSmall from './ButtonSmall.vue';
 
-export const ButtonSmall = () => `
+export default {
+  title: 'Button Small',
+  decorators: [withKnobs]
+}
+
+const label = 'Types'
+const options = [
+  'primary',
+  'secondary',
+  'inverted',
+  'danger',
+  'warning',
+  'success',
+]
+
+const defaultValue = 'primary'
+const groupId = "GROUP-ID1"
+
+export const buttonTypes = () => ({
+  components: { ButtonSmall },
+  props: {
+    type: {
+      default: select(label, options, defaultValue, groupId)
+    }
+  },
+  template:  `<p style="background: #eeeeee; padding: 1ch;"><ButtonSmall :type="type">Select a type</ButtonSmall></p>`
+})
+
+export const buttonSmall = () => `
   <div>
     <h2>ButtonSmall</h2>
     <h3>Types</h3>
