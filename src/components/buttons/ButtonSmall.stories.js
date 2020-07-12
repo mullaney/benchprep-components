@@ -1,4 +1,4 @@
-export default { title: 'Buttons and Stuff' }
+export default { title: 'Button Small' }
 
 export const ButtonSmall = () => `
   <div>
