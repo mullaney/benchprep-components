@@ -42,6 +42,26 @@ yarn add ../benchprep-components --check-files
 
 TODO: Update these directions when using github repo as source
 
+## Using Styleguidist
+
+To use styleguidist in development:
+
+```
+npm run styleguidist
+// or
+yarn styleguidist
+```
+
+## Using Storybook
+
+To use storybook in development:
+
+```
+npm run storybook
+// or
+yarn storybook
+```
+
 ## Initial Demos
 
 The mockups for the initial components were provided by Atiyya: https://www.figma.com/proto/P2GpzhnaT86j5Esfz7eZwj/Sample-UI-LIbrary?node-id=1%3A163&scaling=min-zoom
