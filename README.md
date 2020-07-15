@@ -47,9 +47,9 @@ TODO: Update these directions when using github repo as source
 To use styleguidist in development:
 
 ```
-npm run styleguidist
+npm run styleguide
 // or
-yarn styleguidist
+yarn styleguide
 ```
 
 ## Using Storybook
